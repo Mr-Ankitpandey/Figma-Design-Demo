@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.upper {
+  background: #fff6fd;
+  max-height: 523px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.upper_left {
+  max-width: 587px;
+  position: relative;
+  top: 107px;
+  left: 60px;
+  gap: 40px;
+}
+.upper_left_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+h2 {
+  font-size: 60px;
+}
+.upper_left p{
+    font-size: 32px;
+    line-height: 120%;
+    
+}
+.upper_button button {
+    border: none;
+    border-radius: 71px;
+    padding: 11px 22px;
+}
+.upper_right img {
+  width: 443px;
+  height: 460px;
+}
+.lower {
+  background: #f0f0f0;
+  max-height: 628px;
+}
+.lower_container {
+  width: 1200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.lower_container_inner {
+  display: flex;
+  gap: 30px;
+}
+.lower_left img {
+  width: 559px;
+  height: 427px;
+}
+.lower_right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.lower_right button {
+    padding: 11px 22px;
+    font-size: 32px;
+    line-height: 120%;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 72px;
+    align-items: center;
+    justify-self: center;
+
+}
+.lower_right button span{
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 27px;
+    font-weight: 400;
+}
+.description {
+  line-height: 150%;
+  font-size: 27px;
+  font-weight: 300;
+}
