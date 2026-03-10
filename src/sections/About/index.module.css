@@ -1,0 +1,46 @@
+.aboutContainer{
+    display: flex;
+    gap: 20px;
+}
+.left{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.right{
+    width: 50%;
+}
+.left_upper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left_lower{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutBtn button{
+    border: none;
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+p{
+    font-size: 20px;
+    color: #73788C;
+
+    line-height: 24px;
+}
+#house{
+    max-width: 200px;
+    
+}
+
+.aboutImage img{
+    width: 100%;
+}

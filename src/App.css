@@ -1,9 +1,7 @@
 .container{
-    
-    max-width: 1440px;
     border-radius: 30px;
-    position: relative;
-    top: 50px;
-    /* left: 75px; */
-    background-color: #ffffff;
+    background-color: #fffdfd;
+    max-width: 1440px;
+    padding: 50px 75px;
+    display: flex;
 }
