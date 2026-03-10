@@ -1,0 +1,33 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #121212;
+    line-height: 1.2;
+}
+
+.viewAll {
+    font-size: 15px;
+    font-weight: 400;
+    color: #121212;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    white-space: nowrap;
+}
+
+.cardGrid {
+    display: flex;
+    gap: 16px;
+}

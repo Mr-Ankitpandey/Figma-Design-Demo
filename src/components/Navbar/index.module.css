@@ -1,49 +1,56 @@
 .navbar {
-  
-  display: flex;
-  flex-direction: column;
-  opacity: 1;
-  gap: 34px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
 }
 
 .common {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.navLinks{
     display: flex;
-    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
 }
-.navLinks a{
+
+.navLinks {
+    display: flex;
+    gap: 24px;
+}
+
+.navLinks a {
     text-decoration: none;
-    color:  #545454;
-    font-size: 25px;
-    letter-spacing: 1%;
+    color: #545454;
+    font-size: 18px;
 }
-.icons{
+
+.icons {
     display: flex;
-    gap: 20px;
+    gap: 16px;
 }
-.icons button{
-    height: 50px;
-    width: 50px;
+
+.icons button {
+    height: 40px;
+    width: 40px;
     background: transparent;
-    font-size: 25px;
-    font-weight: 300;
     border: none;
 }
-.categories{
-    display: flex;
-    gap: 12px;
+
+.icons button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
-.categories button{
+
+.categories {
+    display: flex;
+    gap: 10px;
+}
+
+.categories button {
     background: #EFEFEF;
-    padding: 10px 15px;
+    padding: 8px 14px;
     border: none;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 300;
     color: #121212;
-
 }

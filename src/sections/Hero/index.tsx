@@ -13,15 +13,14 @@ const index = () => {
     <div className={styles.container}>
       <div className={styles.upper}>
         <div className={styles.upper_left}>
-          {/* text */}
           <div className={styles.upper_left_container}>
             <div className={styles.upper_text}>
               <h2>
                 Glow Beyond
                 <span>
-                  <img id={styles.send} src={SendIcon} alt="send" />
+                  <img className={styles.sendIcon} src={SendIcon} alt="send" />
                 </span>
-                <span id={styles.expectations}>Expectations</span>
+                <span className={styles.expectations}>Expectations</span>
               </h2>
               <p>
                 Clean, effective, and cruelty-free skincare made to deliver
@@ -29,7 +28,7 @@ const index = () => {
               </p>
             </div>
             <div className={styles.upper_button}>
-              <Button>Shop Now <span className={styles.send}><img id={styles.send} src={SendWhite} alt="sendArrow" /></span></Button>
+              <Button>Shop Now <span className={styles.send}><img className={styles.btnArrow} src={SendWhite} alt="sendArrow" /></span></Button>
             </div>
           </div>
         </div>
@@ -48,21 +47,21 @@ const index = () => {
             </div>
             <div className={styles.lower_right}>
               <div className={styles.lower_right_text}>
-              <p className={styles.title}>Struggling with acne issues?</p>
-              <p className={styles.description}>
-                At Xtragleam Skincare, we understand how frustrating acne can
-                be, and we're here to help you regain confidence in your skin.
-                Our carefully designed recovery process targets acne at its root
-                while soothing and nourishing your skin for long-term health.
-              </p>
+                <p className={styles.title}>Struggling with acne issues?</p>
+                <p className={styles.description}>
+                  At Xtragleam Skincare, we understand how frustrating acne can
+                  be, and we're here to help you regain confidence in your skin.
+                  Our carefully designed recovery process targets acne at its root
+                  while soothing and nourishing your skin for long-term health.
+                </p>
               </div>
               <div className={styles.lower_button}>
-              <Button>
-                Explore Our Range{" "}
-                <span className={styles.send}>
-                  <img src={SendArrow} alt="sendicon" />
-                </span>
-              </Button>
+                <Button>
+                  Explore Our Range{" "}
+                  <span className={styles.send}>
+                    <img src={SendArrow} alt="sendicon" />
+                  </span>
+                </Button>
               </div>
             </div>
           </div>

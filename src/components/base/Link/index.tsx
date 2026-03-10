@@ -1,12 +1,12 @@
 type LinkProps = {
-    path : string;
-    children : React.ReactNode
-
+  path: string
+  children: React.ReactNode
+  className?: string
 }
 
-const index = ({path, children}:LinkProps) => {
+const index = ({ path, children, className }: LinkProps) => {
   return (
-    <a href={path}>{children}</a>
+    <a href={path} className={className}>{children}</a>
   )
 }
 
