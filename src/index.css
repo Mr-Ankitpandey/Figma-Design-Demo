@@ -1,13 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+
+body {
   max-width: 1440px;
   padding: 50px 75px;
   margin: auto;
+}
+
+@media (max-width: 769px) {
+  body {
+    padding: 30px 32px;
+  }
+}
+
+@media (max-width: 426px) {
+  body {
+    padding: 0;
+  }
 }

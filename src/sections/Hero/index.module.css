@@ -9,6 +9,7 @@
     background: #fff6fd;
     border-radius: 20px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
     min-height: 400px;
@@ -51,8 +52,8 @@
 }
 
 .upper_left p {
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 22px;
+    line-height: 1.4;
 }
 
 .upper button {
@@ -61,11 +62,12 @@
     gap: 10px;
     background: #121212;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     border-radius: 71px;
     padding: 12px 28px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .send {
@@ -95,6 +97,7 @@
 
 .lower {
     background: #f0f0f0;
+    border-radius: 16px;
 }
 
 .lower_container {
@@ -106,10 +109,12 @@
 
 .lower_container h1 {
     font-size: 40px;
+    font-weight: 700;
 }
 
 .lower_container_inner {
     display: flex;
+    flex-direction: row;
     gap: 30px;
 }
 
@@ -144,7 +149,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 18px;
+    font-size: 16px;
     border: 1.5px solid #cccccc;
     background: #ffffff;
     color: #111111;
@@ -152,15 +157,147 @@
     padding: 12px 28px;
     cursor: pointer;
     align-self: flex-start;
+    white-space: nowrap;
 }
 
 .title {
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 .description {
-    line-height: 1.5;
-    font-size: 27px;
-    
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+@media (max-width: 769px) {
+    .upper_text h2 {
+        font-size: 28px;
+    }
+
+    .upper_left p {
+        font-size: 14px;
+    }
+
+    .upper_left {
+        padding: 28px 24px;
+    }
+
+    .upper_right {
+        flex: 0 0 40%;
+    }
+
+    .upper_right img {
+        max-width: 100%;
+        max-height: 240px;
+        object-fit: contain;
+        object-position: bottom;
+    }
+
+    .lower_container {
+        padding: 28px 24px;
+        gap: 24px;
+    }
+
+    .lower_container h1 {
+        font-size: 24px;
+    }
+
+    .lower_left img {
+        max-height: 220px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 426px) {
+    .upper {
+        border-radius: 0;
+    }
+
+    .upper_right {
+        display: none;
+    }
+
+    .upper_left {
+        padding: 24px 20px;
+    }
+
+    .upper_text h2 {
+        font-size: 26px;
+    }
+
+    .sendIcon {
+        display: none;
+    }
+
+    .upper_left p {
+        font-size: 14px;
+    }
+
+    .expectations {
+        display: inline;
+        text-align: left;
+    }
+
+    .upper_button {
+        width: 100%;
+    }
+
+    .upper button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .lower {
+        border-radius: 0;
+    }
+
+    .lower_container {
+        padding: 20px 16px;
+    }
+
+    .lower_container_inner {
+        flex-direction: column;
+    }
+
+    .lower_container h1 {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .upper_text h2 {
+        font-size: 22px;
+    }
+
+    .upper_left p {
+        font-size: 13px;
+    }
+
+    .lower_container h1 {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
 }

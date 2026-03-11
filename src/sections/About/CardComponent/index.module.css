@@ -1,11 +1,12 @@
 .card {
     background: #F5F5F5;
     border-radius: 8px;
-    padding: 24px 84px 9px 24px;
+    padding: 24px 20px 9px 24px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    flex: 1 1 calc(50% - 7px);
+    flex: 1;
+    min-width: 0;
 }
 
 .card h3 {
@@ -20,4 +21,19 @@
     color: #73788C;
     line-height: 1.5;
     font-weight: 400;
+}
+
+@media (max-width: 320px) {
+    .card {
+        flex: 1 1 100%;
+        padding: 12px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
 }

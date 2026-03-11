@@ -1,23 +1,24 @@
 .card {
-   flex: 1;
+    flex: 1 1 220px;
     background: #FFFFFF;
     border-radius: 20px;
     padding: 36px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* min-width: 0;*/
+    min-width: 0;
 }
 
 .avatarWrapper {
     display: flex;
     justify-content: center;
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: column;
     gap: 13px;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .avatar {
@@ -31,13 +32,37 @@
 
 .title {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .review {
     color: #444444;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 .reviewer {
     font-weight: 700;
     color: #121212;
+}
+
+@media (max-width: 426px) {
+    .card {
+        flex: 1 1 100%;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .text {
+        font-size: 12px;
+    }
+
+    .avatar {
+        width: 44px;
+        height: 44px;
+    }
 }
