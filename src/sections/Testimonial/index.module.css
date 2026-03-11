@@ -1,21 +1,17 @@
 .section {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 50px;
     background: #EFEFEF;
-    border-radius: 16px;
-    padding: 36px 32px;
-    width: 100%;
+    padding: 67px 21px 89px 21px;
+    /* width: 100%;*/
 }
 
 .title {
-    font-size: 30px;
-    font-weight: 700;
-    color: #121212;
-    line-height: 1.2;
+    font-size: 50px;
 }
 
 .cardGrid {
-    /* display: flex; */
-    gap: 16px;
+    display: flex;
+    gap: 14px;
 }

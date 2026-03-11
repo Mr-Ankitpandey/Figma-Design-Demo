@@ -10,7 +10,7 @@ const index = () => {
       <div className={styles.left}>
         <div className={styles.left_upper}>
           <div className={styles.aboutBtn}>
-            <Button>About Us</Button>
+            <Button>ABOUT US</Button>
           </div>
           <h1>How much is your property worth now?</h1>
           <p>
@@ -21,6 +21,7 @@ const index = () => {
           </p>
         </div>
         <div className={styles.left_lower}>
+          <div className={styles.upper_box}>
           <Card
             h3="178K+"
             p="Lorem ipsum dolor amet, consectetur adipiscing elit. Faucibus in libero."
@@ -29,6 +30,7 @@ const index = () => {
             h3="362"
             p="Lorem ipsum dolor amet, consectetur adipiscing elit."
           />
+          </div>
           <div className={styles.thumbnailCard}>
             <div className={styles.thumbnailText}>
               <h3>Title</h3>
@@ -37,11 +39,13 @@ const index = () => {
                 in libero.
               </p>
             </div>
+            <div>
             <img
               src={About2}
               alt="property thumbnail"
               className={styles.thumbnailImg}
             />
+            </div>
           </div>
         </div>
       </div>

@@ -1,8 +1,7 @@
 .section {
     display: flex;
     flex-direction: column;
-    gap: 28px;
-    width: 100%;
+    gap: 50px;
 }
 
 .header {
@@ -12,22 +11,20 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     color: #121212;
-    line-height: 1.2;
+    line-height: 1;
 }
 
 .viewAll {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 30px;
     color: #121212;
     text-decoration: underline;
-    text-underline-offset: 3px;
-    white-space: nowrap;
+    font-weight: 300;
 }
 
 .cardGrid {
     display: flex;
-    gap: 16px;
+    gap: 17px;
 }

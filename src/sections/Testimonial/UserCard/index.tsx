@@ -13,10 +13,12 @@ const index = ({ imageSrc = '', title, review, reviewer }: UserCardProps) => {
             <div className={styles.avatarWrapper}>
                 {imageSrc && <img src={imageSrc} alt={reviewer} className={styles.avatar} />}
             </div>
+            <div className={styles.text}>
             <p className={styles.title}>{title}</p>
             <p className={styles.review}>
-                {review} <span className={styles.reviewer}>– {reviewer}</span>
+                {review} <span className={styles.reviewer}>{reviewer}</span>
             </p>
+            </div>
         </div>
     )
 }

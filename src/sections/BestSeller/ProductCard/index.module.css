@@ -1,140 +1,128 @@
 .card {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border-radius: 12px;
-    overflow: hidden;
-    background: #F5F5F5;
-    min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #f5f5f5;
+  border-radius: 10px 10px 0 0;
+  background: #f5f5f5;
+  min-width: 0;
 }
 
 .imageArea {
-    display: flex;
-    flex-direction: column;
-    padding: 14px 14px 0 14px;
-    gap: 10px;
-    background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f5f5f5;
 }
 
 .imageTopRow {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px 20px 0 20px;
 }
 
 .badgeRating {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 
 .badge {
-    font-size: 13px;
-    font-weight: 500;
-    color: #121212;
+  font-size: 20px;
+  font-weight: 500;
+  color: #121212;
 }
 
 .stars {
-    font-size: 14px;
-    color: #F5A623;
-    letter-spacing: 1px;
+  font-size: 20px;
+  color: #f5a623;
 }
 
 .wishlistBtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 1.5px solid #D0D0D0;
-    background: transparent;
-    cursor: pointer;
-    flex-shrink: 0;
-}
-
-.heartIcon {
-    width: 15px;
-    height: 15px;
-    object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1.5px solid #d0d0d0;
+  cursor: pointer;
 }
 
 .productImageWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 0;
-    min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+  min-height: 160px;
 }
 
 .productImage {
-    max-width: 100%;
-    max-height: 180px;
-    object-fit: contain;
-    display: block;
+  max-width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  display: block;
 }
 
 .infoArea {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 12px 14px;
-    background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 32px;
+  background: #ffffff;
 }
 
 .namePrice {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
 }
 
 .productName {
-    font-size: 13px;
-    font-weight: 500;
-    color: #121212;
-    line-height: 1.4;
+  font-size: 16px;
+  font-weight: 500;
+  color: #121212;
+  line-height: 1.4;
 }
 
 .pricing {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .originalPrice {
-    font-size: 12px;
-    color: #999999;
-    text-decoration: line-through;
+  font-size: 16px;
+  color: #999999;
+  text-decoration: line-through;
 }
 
 .salePrice {
-    font-size: 13px;
-    font-weight: 700;
-    color: #121212;
+  font-size: 16px;
+  font-weight: 700;
+  color: #121212;
 }
 
 .addToCartBtn {
-    display: flex;
+  display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 10px 16px;
+    gap: 10px;
+    padding: 5px 10px;
     background: #121212;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
     border-radius: 40px;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 16px;
     cursor: pointer;
-    white-space: nowrap;
     flex-shrink: 0;
 }
 
 .bagIcon {
-    width: 15px;
-    height: 15px;
-    object-fit: contain;
-    filter: invert(1);
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  filter: invert(1);
 }

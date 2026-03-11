@@ -1,6 +1,8 @@
 
 import './App.css'
 import Home from './pages/Home'
+import Footer from './sections/Footer/index'
+
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
   return (
     <div className='container'>
       <Home></Home>
+      <Footer/>
     </div>
   )
 }

@@ -19,7 +19,7 @@
 .navLinks a {
     text-decoration: none;
     color: #545454;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .icons {
@@ -47,10 +47,9 @@
 
 .categories button {
     background: #EFEFEF;
-    padding: 8px 14px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 25px;
     color: #121212;
 }

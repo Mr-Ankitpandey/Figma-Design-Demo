@@ -1,7 +1,7 @@
 import Button from '../base/Button/index'
 import SearchIcon from '../../assets/icons/search-normal.png'
 import BagIcon from '../../assets/icons/bag-2.png'
-import HeartIcon from '../../assets/icons/heart.png'
+import HeartIcon from '../../assets/icons/heart.svg'
 import ProfileIcon from '../../assets/icons/profile.png'
 import Link from '../base/Link/index'
 import Logo from '../../assets/icons/Group 37.png'

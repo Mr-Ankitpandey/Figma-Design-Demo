@@ -1,5 +1,5 @@
 import Button from '../../../components/base/Button/index'
-import HeartIcon from '../../../assets/icons/heart.png'
+import HeartIcon from '../../../assets/icons/heart.svg'
 import BagIcon from '../../../assets/icons/bag-2.png'
 import styles from './index.module.css'
 
