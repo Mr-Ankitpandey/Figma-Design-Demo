@@ -1,0 +1,41 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #EFEFEF;
+    padding: 76px 21px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.cardGrid {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 769px) {
+    .title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 426px) {
+    .section {
+        
+        padding: 33px 22px;
+        gap: 30px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .cardGrid {
+        flex-direction: column;
+    }
+}
+

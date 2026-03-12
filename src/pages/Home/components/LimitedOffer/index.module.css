@@ -1,0 +1,116 @@
+.section {
+   
+    background: linear-gradient(261.99deg, #D1068C -18.97%, #1310A6 43.5%, #7E1B5C 102.32%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+    max-width: 1000px;
+}
+
+.topText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.headline {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.subline {
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.countdown {
+    font-size: 86px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+}
+
+.arrowIcon {
+    display: flex;
+}
+
+.shopBtn {
+    background: #ffffff;
+    border: none;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    font-size: 24px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+@media (max-width: 769px) {
+    .section {
+        padding: 40px 40px;
+    }
+
+    .headline {
+        font-size: 36px;
+    }
+
+    .subline {
+        font-size: 24px;
+    }
+
+    .countdown {
+        font-size: 50px;
+    }
+
+    .shopBtn {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 426px) {
+    .section {
+        padding: 32px 20px;
+        border-radius: 0;
+    }
+
+    .headline {
+        font-size: 29px;
+    }
+
+    .subline {
+        font-size: 18px;
+    }
+
+    .countdown {
+        font-size: 30px;
+    }
+
+    .shopBtn {
+        font-size: 20px;
+        padding: 6px 13px;
+    }
+}
+
+@media (max-width: 321px) {
+    
+
+    
+
+}

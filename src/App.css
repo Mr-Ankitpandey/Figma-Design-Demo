@@ -1,7 +1,19 @@
 .container{
     border-radius: 30px;
     background-color: #fffdfd;
-    /* max-width: 1440px;
-    padding: 50px 75px; */
+    max-width: 1440px;
+    padding: 50px 75px;
     
+}
+
+@media (max-width: 769px) {
+  .container {
+    padding: 30px 32px;
+  }
+}
+
+@media (max-width: 426px) {
+  .container {  
+    padding: 0;
+  }
 }

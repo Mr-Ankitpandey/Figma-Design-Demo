@@ -1,10 +1,10 @@
 import Navbar from '../../components/Navbar/index'
 import styles from './index.module.css'
-import Hero from '../../sections/Hero/index'
-import About from '../../sections/About/index'
-import BestSeller from '../../sections/BestSeller/index'
-import Testimonial from '../../sections/Testimonial/index'
-import LimitedOffer from '../../sections/LimitedOffer/index'
+import Hero from './components/Hero/index'
+import About from './components/About/index'
+import BestSeller from './components/BestSeller/index'
+import Testimonial from './components/Testimonial/index'
+import LimitedOffer from './components/LimitedOffer/index'
 
 const index = () => {
   return (
